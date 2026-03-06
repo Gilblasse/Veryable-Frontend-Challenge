@@ -12,9 +12,11 @@
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.5",
     "@mui/material-nextjs": "^7.3.5",
-    "next": "16.0.3",
+    "moment": "^2.30.1",
+    "next": "^16.1.6",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
