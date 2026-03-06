@@ -1,4 +1,5 @@
 import { Stack, Typography } from "@mui/material";
+import OpsTable from "./OpsTable";
 
 export default function Home() {
   return (
@@ -9,8 +10,11 @@ export default function Home() {
         justifyContent: "center",
         alignItems: "center",
       }}
+      spacing={4}
     >
       <Typography variant="h1">Hello World</Typography>
+
+      <OpsTable />
     </Stack>
   );
 }
