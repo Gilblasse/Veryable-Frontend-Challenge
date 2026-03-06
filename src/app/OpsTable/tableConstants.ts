@@ -3,6 +3,7 @@ const OPERATOR_HEADERS = [
   { headerTitle: 'Ops Completed', dataIndex: 'opsCompleted' as const },
   { headerTitle: 'Reliability', dataIndex: 'reliability' as const },
   { headerTitle: 'Endorsements', dataIndex: 'endorsements' as const },
+  { headerTitle: 'Status', dataIndex: 'checkIn' as const },
 ];
 
 const EXPAND_HEADER = { headerTitle: '', align: 'left' as const };
