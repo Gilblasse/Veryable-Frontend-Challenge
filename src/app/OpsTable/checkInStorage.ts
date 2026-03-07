@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'operatorCheckIns';
+export const STORAGE_KEY = 'operatorCheckIns';
 
 function getAllCheckIns(): Record<string, boolean> {
   try {
